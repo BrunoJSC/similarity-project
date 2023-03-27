@@ -1,38 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Similarity Project
 
-## Getting Started
+<p>Este projeto é uma aplicação web desenvolvida em Next.js, que tem como objetivo calcular a similaridade entre duas frases. Para isso, utiliza-se um algoritmo de processamento de linguagem natural (NLP) que realiza a comparação entre as duas frases e retorna uma pontuação de similaridade.</p>
 
-First, run the development server:
+<h1>Instalação</h1>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p>Para executar o projeto em sua máquina local, é necessário ter o Node.js instalado em seu sistema. Em seguida, siga os seguintes passos:</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<h3>Clone este repositório em sua máquina:</h3>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<code>git clone https://github.com/BrunoJSC/similarity-project.git</code>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<code>cd similarity-project</code>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<code>npm run dev</code>
 
-## Learn More
+<h2>Tecnologias utilizadas</h2>
+<p>As principais tecnologias utilizadas neste projeto são:</p>
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<ul>
+  <li>NextJS</li>
+  <li>Typescript</li>
+  <li>Tailwindcss</li>
+  <li>Axios</li>
+  <li>Zod</li>
+  <li>react-hook-form</li>
+  <li>react-hot-toast</li>
+  <li>openai</li>
+  <li>prisma</li>
+  <li>Radix-ui</li>
+  <li>date-fns</li>
+</ul>
